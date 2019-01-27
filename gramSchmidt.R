@@ -1,6 +1,3 @@
-# Author: Michael Duprey
-# Date: May 13, 2018
-
 # Gram-Schmidt process ----------------------------------------------------
 source("./innerProduct.R")
 
