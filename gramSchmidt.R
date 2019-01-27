@@ -1,7 +1,9 @@
-# Gram-Schmidt process ----------------------------------------------------
 source("./innerProduct.R")
 
 gramSchmidt <- function(V) {
+  # Implementation of Gram-Schmidt process using the integral inner product
+  
+  
   # Verify numeric vector
   if (!is.list(V)) stop("Argument is not a list")
   if (!all(sapply(V, function(x) is.numeric(unlist(x))))) stop("Argument is not a numeric list")
