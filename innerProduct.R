@@ -1,6 +1,7 @@
-# Integral inner product --------------------------------------------------
 
 "%i%" <- function(u, v) {
+  # Create integral inner product infix operator
+  
   # Verify numeric vector
   if (!(is.vector(u) & is.numeric(u))) stop("Argument 1 not a numeric vector")
   if (!(is.vector(v) & is.numeric(v))) stop("Argument 2 not a numeric vector")
