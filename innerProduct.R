@@ -1,4 +1,3 @@
-
 "%i%" <- function(u, v) {
   # Create integral inner product infix operator
   
